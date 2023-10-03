@@ -1,0 +1,39 @@
+*
+{
+    margin: 0ox;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+h1{
+    position: absolute;
+    top: 15px;
+}
+table
+{
+    background-color: rgb(154, 202, 202);
+    height: 300px;
+    width: 300px;
+}
+
+table tr td input
+{
+    width: 60px;
+    background-color: rgb(154, 202, 202);
+    border:none;
+}
+table input:focus
+{
+    outline: none;
+    
+}
+tr td:last-child
+{
+    width: 60px;
+}

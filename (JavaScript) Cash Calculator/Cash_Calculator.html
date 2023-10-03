@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Calculator</title>
+    <script src="Cash.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Cash Calculator</h1>
+  <table border="1px solid black" >
+    <tr>
+        <td><label>2000</label></td>
+        <td><label>*</label></td>
+        <td><input type="number" id="notes" onkeyup="enter_number() "></td>
+        <td align="center">=</td>
+        <td><label id="total"></label></td>
+    </tr>
+
+
+    <tr>
+        <td><label>500</label></td>
+        <td>*</td>
+        <td><input type="number" id="five" onkeyup=" enter_number()"></td>
+        <td align="center">=</td>
+        <td id="five_total"></td>
+    </tr>
+
+    <tr>
+        <td><label>200</label></td>
+        <td>*</td>
+        <td><input type="number" id="two" onkeyup="enter_number() "></td>
+        <td align="center">=</td>
+        <td id="two_total"></td>
+    </tr>
+
+    <tr>
+        <td><label>100</label></td>
+        <td><label>*</label></td>
+        <td><input type="number" id="one" onkeyup=" enter_number() "></td>
+        <td align="center">=</td>
+        <td id="one_number"></td>
+    </tr>
+
+    <tr>
+        <td><label>50</label></td>
+        <td><label>*</label></td>
+        <td><input type="number" id="fifty" onkeyup="enter_number()"></td>
+        <td align="center">=</td>
+        <td id="fifty_number"></td>
+    </tr>
+
+
+    <tr>
+        <td><label>20</label></td>
+        <td><label>*</label></td>
+        <td><input type="number" id="twenty" onkeyup="enter_number()"></td>
+        <td align="center">=</td>
+        <td id="twenty_number"></td>
+    </tr>
+
+    <tr>
+        <td><label>10</label></td>
+        <td><label>*</label></td>
+        <td><input type="number" id="ten" onkeyup="enter_number() "></td>
+        <td align="center">=</td>
+        <td id="ten_number"></td>
+    </tr>
+
+
+    <tr>
+        <td><label>5</label></td>
+        <td><label>*</label></td>
+        <td><input type="number" id="fives" onkeyup="enter_number()"></td>
+        <td align="center">=</td>
+        <td id="fives_number"></td>
+    </tr>
+
+    <tr>
+       
+        <td colspan="6">Total:-<p id="totals" style=" margin-top: -5%; margin-left: 3rem;"></p></td>
+      
+     
+    </tr>
+  </table>
+
+    
+</body>
+</html>
